@@ -1,0 +1,268 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family:'TsukuARdGothic-Regular';
+  box-sizing:border-box;
+}
+.header{
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  background-color: #fff;
+  width: 1440px;
+ }
+.header img{
+  object-fit: contain;
+}
+.main{
+  width: 1440px;
+}
+.header .wrap{
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-login .btn{
+  font-family: "Hiragino Mincho Pro";
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 16px;
+  padding: 8px 18px;
+  color: #007bbb;
+  text-decoration:none;
+  -webkit-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+  background: -webkit-linear-gradient(180deg, rgba(49,105,209,0.8), rgba(132, 179, 252, 0.8), rgba(205, 200, 252, 0), rgba(205, 200, 252, 0));
+  background: -webkit-linear-gradient(right, rgba(49,105,209,0.8), rgba(132, 179, 252, 0.8), rgba(205, 200, 252, 0), rgba(205, 200, 252, 0));
+  background: linear-gradient(270deg, rgba(49,105,209,0.8), rgba(132, 179, 252, 0.8), rgba(205, 200, 252, 0), rgba(205, 200, 252, 0));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  border: none;
+  border: 1px solid #007bbb;
+}
+.header-login .btn:hover{
+  background-position: 99% 50%;
+  color: #fff !important;
+  border: 1px solid rgba(205, 200, 252, 0);
+}
+.screen{
+  position: relative;
+  background-image: url("image/shigenobu.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: top;
+  opacity: 0.7;
+}
+.screen .top-circle{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.screen .top-circle .item{
+  font-weight: 600px;
+  font-weight: 800;
+  font-size: 21px;
+}
+.signup{
+  width: 1440px;
+}
+.signup .wrap{
+  background-color: #fff;
+  padding: 110px 200px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.signup a{
+  position: absolute;
+  background:#007bbb;
+  color: #e9e9e9;
+  font-family:'TsukuARdGothic-Regular';
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+  text-decoration:none;
+  width: 150px;
+  background: transparent;
+  color: #007bbb!important;
+  -webkit-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+  background: -webkit-linear-gradient(180deg, rgba(49,105,209,0.8), rgba(132, 179, 252, 0.8), rgba(205, 200, 252, 0), rgba(205, 200, 252, 0));
+  background: -webkit-linear-gradient(right, rgba(49,105,209,0.8), rgba(132, 179, 252, 0.8), rgba(205, 200, 252, 0), rgba(205, 200, 252, 0));
+  background: linear-gradient(270deg, rgba(49,105,209,0.8), rgba(132, 179, 252, 0.8), rgba(205, 200, 252, 0), rgba(205, 200, 252, 0));
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  border: none;
+  border: 1px solid #007bbb;
+}
+.signup a:hover{
+  background-position: 99% 50%;
+  color: #fff !important;
+  border: 1px solid rgba(205, 200, 252, 0);
+  text-decoration:none;
+}
+.about-konpeki-logo .wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:0px;
+}
+
+.about-konpeki{
+  width: 100%;
+}
+.about-konpeki .wrap span{
+  font-family: "Hiragino Mincho Pro";
+  font-size: 40px;
+  color: #505050;
+}
+.about-konpeki .wrap{
+  font-size: 26px;
+  font-weight: 500;
+  text-align: center;
+
+}
+.about-konpeki .wrap .back-img{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-konpeki .wrap .item{
+  font-family:'TsukuARdGothic-Regular';
+  position: absolute;
+  font-weight: 300px;
+  font-weight: 800;
+  font-size: 25px;
+  align-items: center;
+  text-align: center;
+  color: #505050;
+}
+.line1{
+  margin:100px 0px;
+}
+.use{
+  width: 100%;
+  height:900px;
+}
+.use .wrap{
+  width: 100%;
+  height: 1800px;
+}
+.use  .backscreen{
+  background-image: url("image/use-backsc.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1800px;
+  object-fit: cover;
+  opacity: 0.7;
+}
+.use  .backscreen .wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+  width: 100%;
+  height: 1800px;
+  padding: 150px 170px;
+}
+.use .backscreen .wrap .box{
+  width: 1100px;
+  padding: 40px 100px;
+  border-radius: 50px;
+  background: #fff;
+  opacity: 0.9;
+}
+.use .backscreen .wrap .box .inner-item{
+  margin:27px 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.use .backscreen .wrap .box .inner-item .info-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+}
+.use .backscreen .wrap .box .inner-item .info-icon h2{
+  font-weight: 600;
+}
+.use .backscreen .wrap .box .inner-item .info-icon img{
+  width: 100px;
+}
+#page_top{
+  width: 100px;
+  height: 60px;
+  right: 0;
+  bottom: 0;
+  background: #ef3f98;
+  opacity: 0.6;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 60px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -25px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a::after{
+  content: 'PAGE TOP';
+  font-size: 13px;
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+footer{
+  position: absolute;/*←絶対位置*/
+  bottom: 0; /*下に固定*/
+}
+
+@media only screen and (max-width:640px) {
+  .header{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+  }
+
+}
